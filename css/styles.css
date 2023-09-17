@@ -1,0 +1,127 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ===================NORMALIZE=================== */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/* ===================/NORMALIZE=================== */
+
+/* ===================VAR=================== */
+:root {
+  --brand-color: rgba(77, 90, 229, 1);
+
+  --pressed-color: rgba(64, 75, 191, 1);
+
+  --white-color: rgba(255, 255, 255, 1);
+
+  --primary-color: rgba(46, 47, 66, 1);
+
+  --text-color: rgba(67, 68, 85, 1);
+}
+/* ===================/VAR=================== */
+
+/* ===================COMPONENTS=================== */
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  background: var(--brand-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+.btn:hover,
+:focus {
+  background: var(--pressed-color);
+}
+.section-title {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 1.11;
+  text-transform: capitalize;
+}
+.card-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.card-descr {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* ===================/COMPONENTS=================== */
+
+/* ===================HEADER=================== */
+.logo {
+  color: var(--primary-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-part {
+  color: var(--brand-color);
+}
+.menu-item a {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.contact-item a {
+  color: var(--text-color);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* ===================/HEADER=================== */
+
+/* ===================HERO=================== */
+.hero {
+  background-color: var(--primary-color);
+}
+.hero-title {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+/* ===================/HERO=================== */
+
+/* ===================ADVANTAGES=================== */
+
+/* ===================/ADVANTAGES=================== */
+
+/* ===================DOING=================== */
+
+/* ===================/DOING=================== */
+
+/* ===================TEAM=================== */
+
+/* ===================/TEAM=================== */
