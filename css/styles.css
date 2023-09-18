@@ -31,10 +31,7 @@ body {
 /* ===================COMPONENTS=================== */
 
 .btn {
-  /* border-radius: 4px; */
-  /* border: none; */
   background: var(--brand-color);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   color: var(--white-color);
