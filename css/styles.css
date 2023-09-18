@@ -13,16 +13,16 @@ body {
 
 /* ===================VAR=================== */
 :root {
-  --brand-color: rgba(77, 90, 229, 1);
+  --brand-color: #4d5ae5;
 
-  --pressed-color: rgba(64, 75, 191, 1);
+  --pressed-color: #404bbf;
 
-  --white-color: rgba(255, 255, 255, 1);
+  --white-color: #fff;
 
-  --primary-color: rgba(46, 47, 66, 1);
+  --primary-color: #2e2f42;
 
-  --text-color: rgba(67, 68, 85, 1);
-  --cloud-color: rgba(244, 244, 253, 1);
+  --text-color: #434455;
+  --cloud-color: #f4f4fd;
 }
 /* ===================/VAR=================== */
 
@@ -77,7 +77,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -132,7 +132,7 @@ body {
   background-color: var(--primary-color);
 }
 .logo-footer {
-  color: var(--white-color);
+  color: var(--cloud-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
