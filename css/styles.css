@@ -36,7 +36,7 @@ body {
   background: var(--brand-color);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   cursor: pointer;
-
+  font-family: 'Roboto', sans-serif;
   color: var(--white-color);
   font-size: 16px;
   font-weight: 500;
@@ -93,29 +93,34 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.menu-item a:hover,
-:focus {
+.menu-item-link:hover {
+  color: var(--pressed-color);
+}
+.menu-item-link:focus {
   color: var(--pressed-color);
 }
 .contact {
   font-style: normal;
 }
-.contact-item a {
+.contact-item-link {
   color: var(--text-color);
-
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.contact-item a:hover,
-:focus {
+.contact-item-link:hover {
+  color: var(--pressed-color);
+}
+.contact-item-link:focus {
   color: var(--pressed-color);
 }
 /* ===================/HEADER=================== */
 
 /* ===================HERO=================== */
-
+.hero {
+  background-color: var(--primary-color);
+}
 .hero-title {
   color: var(--white-color);
   text-align: center;
