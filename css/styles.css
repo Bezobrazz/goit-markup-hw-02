@@ -31,7 +31,7 @@ body {
 /* ===================COMPONENTS=================== */
 
 .btn {
-  background: var(--brand-color);
+  background-color: var(--brand-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   color: var(--white-color);
@@ -63,7 +63,6 @@ body {
 .card-descr {
   color: var(--text-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
@@ -172,11 +171,8 @@ body {
 /* ===================Filter buttons=================== */
 .filter-button {
   cursor: pointer;
-  /* border-radius: 4px; */
   font-family: 'Roboto', sans-serif;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--cloud-color);
-
+  background-color: var(--cloud-color);
   color: var(--brand-color);
   text-align: center;
   font-size: 16px;
